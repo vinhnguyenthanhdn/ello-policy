@@ -1067,85 +1067,108 @@ button:focus-visible {
   outline-offset: -2px;
 }
 
-/* Dark mode support (optional) */
+/* Dark mode disabled - force light mode always */
 @media (prefers-color-scheme: dark) {
   :root {
-    --surface: #1F2937;
-    --surface-alt: #111827;
-    --text: #F3F4F6;
-    --text-muted: #D1D5DB;
-    --border: #374151;
+    --surface: #FFFFFF;
+    --surface-alt: #F8FAFC;
+    --border: #E2E8F0;
+    --text: #0F172A;
+    --text-muted: #475569;
+    --text-inverse: #FFFFFF;
+  }
+
+  body {
+    background-color: #F8FAFC;
+    color: #0F172A;
   }
 
   .sidebar-nav {
-    background-color: #111827;
+    background-color: #FFFFFF;
   }
 
   .content {
-    background-color: #1F2937;
+    background-color: #FFFFFF;
   }
 
   table {
-    background-color: #111827;
+    background-color: #FFFFFF;
   }
 
   table th {
-    background-color: rgba(13, 148, 136, 0.2);
-    color: #F3F4F6;
+    background-color: #CCFBF1;
+    color: #0F766E;
   }
 
   table td {
-    color: #F3F4F6;
-    border-bottom-color: #374151;
+    color: #0F172A;
+    border-bottom-color: #E2E8F0;
   }
 
   table tbody tr:nth-child(even) {
-    background-color: rgba(13, 148, 136, 0.1);
+    background-color: rgba(13, 148, 136, 0.03);
   }
 
   table tbody tr:hover {
-    background-color: rgba(13, 148, 136, 0.15);
+    background-color: rgba(13, 148, 136, 0.06);
   }
 
   code {
-    background-color: #111827;
-    color: #FCA5A5;
+    background-color: #F8FAFC;
+    color: #DC2626;
   }
 
   pre {
-    background-color: #111827;
-    color: #E5E7EB;
+    background-color: #1F2937;
+    color: #F3F4F6;
   }
 
-  /* Fix inline styles in dark mode */
-  strong[style*="color: #475569"],
-  p[style*="color: #475569"],
-  div[style*="color: #475569"],
-  span[style*="color: #475569"] {
-    color: #D1D5DB !important;
+  strong,
+  strong[style*="color"],
+  p[style*="color"],
+  div[style*="color"],
+  span[style*="color"] {
+    color: inherit !important;
   }
 
-  /* Fix text-muted references */
   .text-muted,
   [class*="muted"] {
-    color: #D1D5DB !important;
+    color: #475569 !important;
   }
 
-  /* Page meta background */
   .page-meta {
-    background-color: #1F2937 !important;
+    background-color: #F8FAFC !important;
   }
 
   .page-meta span {
-    color: #F3F4F6 !important;
+    color: #0F172A !important;
   }
 
-  /* Breadcrumb */
   .breadcrumb {
-    color: #D1D5DB !important;
+    color: #475569 !important;
   }
 
   .breadcrumb a {
-    color: #60A5FA !important;
+    color: #0D9488 !important;
+  }
+
+  .sidebar-nav a {
+    color: #0D9488 !important;
+  }
+
+  .sidebar-nav a:hover {
+    color: #0F766E !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #0F172A !important;
+  }
+
+  a {
+    color: #0D9488 !important;
+  }
+
+  a:visited {
+    color: #6B21A8 !important;
   }
 }
