@@ -1116,4 +1116,36 @@ button:focus-visible {
     background-color: #111827;
     color: #E5E7EB;
   }
+
+  /* Fix inline styles in dark mode */
+  strong[style*="color: #475569"],
+  p[style*="color: #475569"],
+  div[style*="color: #475569"],
+  span[style*="color: #475569"] {
+    color: #D1D5DB !important;
+  }
+
+  /* Fix text-muted references */
+  .text-muted,
+  [class*="muted"] {
+    color: #D1D5DB !important;
+  }
+
+  /* Page meta background */
+  .page-meta {
+    background-color: #1F2937 !important;
+  }
+
+  .page-meta span {
+    color: #F3F4F6 !important;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    color: #D1D5DB !important;
+  }
+
+  .breadcrumb a {
+    color: #60A5FA !important;
+  }
 }
