@@ -212,56 +212,17 @@
     <div style="margin: 1.5rem 0;">
       <h4 style="margin-top: 1rem;">4.3. Thay đổi thời gian / Rescheduling</h4>
       <p>
-        Khách có thể <strong>yêu cầu thay đổi thời gian tour</strong>. Tùy vào loại tour, quy trình rescheduling khác nhau:
-      </p>
-
-      <h5 style="margin-top: 1rem;">Loại Tour A (Linh Hoạt - Flexible):</h5>
-      <ul>
-        <li><strong>Miễn phí</strong> nếu đổi ≥24 giờ trước.</li>
-        <li><strong>Hoàn 50%</strong> nếu đổi trong 24 giờ trước.</li>
-      </ul>
-
-      <h5>Loại Tour B (Bán Linh Hoạt - Partial Refund) & C (Không Hoàn Tiền - Non-refundable):</h5>
-      <p>
-        <strong>Đổi lịch ngoài khung "Linh hoạt" → được xem như hủy và đặt lại tour mới.</strong>
-        Sẽ áp dụng đầy đủ chính sách quy định tại điểm A/B/C mục 5.2 của Điều khoản dịch vụ:
+        Khách có thể <strong>yêu cầu thay đổi thời gian tour</strong> (không hủy hoàn toàn):
       </p>
       <ul>
-        <li><strong>Loại B:</strong> Hoàn 80% nếu đổi ≥72h, hoàn 50% nếu đổi 48-72h, không hoàn nếu đổi <48h.</li>
-        <li><strong>Loại C:</strong> Không hoàn tiền khi đổi dưới mọi hình thức.</li>
+        <li><strong>Miễn phí</strong> nếu đổi ≥72 giờ trước.</li>
+        <li><strong>Phí 100,000 VND</strong> nếu đổi trong 24-72 giờ.</li>
+        <li><strong>Không được phép đổi</strong> nếu <24 giờ trước. Khách phải hủy tour (áp dụng lịch hoàn tiền 50%) và đặt tour mới.</li>
       </ul>
 
       <div style="background-color: #FEF3C7; padding: 0.75rem; border-left: 4px solid #F59E0B; border-radius: 0.5rem; margin-top: 1rem; font-size: 0.9rem;">
-        <strong>Lưu ý:</strong> Khi rescheduling, Service Fee <strong>KHÔNG được hoàn</strong> (vì được xem như hủy & đặt mới).
-        Chỉ hoàn Service Fee nếu hủy đúng chính sách (tour loại A miễn phí, tour loại B/C áp dụng theo quy định).
-      </div>
-
-      <h4 style="margin-top: 1.5rem;">4.4. Xử Lý Giá Chênh Lệch Khi Rescheduling</h4>
-      <p>
-        Khi khách hàng đổi sang tour khác có giá khác nhau, sẽ áp dụng quy định sau:
-      </p>
-
-      <table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0;">
-        <tr style="background-color: #F3F4F6;">
-          <td style="padding: 1rem; border: 1px solid #D1D5DB;"><strong>Tình huống</strong></td>
-          <td style="padding: 1rem; border: 1px solid #D1D5DB;"><strong>Xử lý</strong></td>
-        </tr>
-        <tr>
-          <td style="padding: 1rem; border: 1px solid #D1D5DB;">Đổi sang tour có giá <strong>nhỏ hơn</strong></td>
-          <td style="padding: 1rem; border: 1px solid #D1D5DB;"><strong>KHÔNG áp dụng hoàn phí chênh lệch</strong><br>Khách không được hoàn lại phần dư tiền</td>
-        </tr>
-        <tr>
-          <td style="padding: 1rem; border: 1px solid #D1D5DB;">Đổi sang tour có giá <strong>cao hơn</strong></td>
-          <td style="padding: 1rem; border: 1px solid #D1D5DB;"><strong>Khách hàng cần đóng thêm phí chênh lệch</strong><br>Bằng hiệu số giá giữa tour cũ và tour mới</td>
-        </tr>
-      </table>
-
-      <div style="background-color: #DBEAFE; padding: 1rem; border-left: 4px solid #0284C7; border-radius: 0.5rem; margin-top: 1rem; font-size: 0.9rem;">
-        <strong>Ví dụ:</strong>
-        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem;">
-          <li>Tour cũ: 1,000,000 VND → Tour mới: 800,000 VND → Khách KHÔNG được hoàn 200,000 VND</li>
-          <li>Tour cũ: 1,000,000 VND → Tour mới: 1,200,000 VND → Khách cần đóng thêm 200,000 VND</li>
-        </ul>
+        <strong>Tại sao?</strong> Vì quá gần thời gian tour, HDV đã chuẩn bị, không thể tìm khách thay thế dễ dàng.
+        Để công bằng, khách phải chịu phí hủy (50%). Nếu muốn rescheduling miễn phí, hủy ≥72h trước.
       </div>
     </div>
 
@@ -351,123 +312,7 @@
     </div>
 
     <!-- IV. QUY TRÌNH HỦY TỪ KHÁCH -->
-    <!-- IV. SERVICE FEE & HOÀN TIỀN -->
-    <h2 style="margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #E2E8F0;">IV. Service Fee & Hoàn Tiền</h2>
-
-    <p>
-      Ello Da Nang tính Service Fee để duy trì nền tảng, xử lý thanh toán và hỗ trợ khách hàng. Chính sách hoàn Service Fee
-      được áp dụng dựa trên tính chất hủy tour của khách hàng.
-    </p>
-
-    <h3>1. Service Fee là gì?</h3>
-    <p>
-      Service Fee là phí dịch vụ của Ello Da Nang, thường chiếm <strong>10-15% giá dịch vụ tour</strong> tùy vào loại tour.
-      Phí này được tính riêng biệt với giá tour cơ bản.
-    </p>
-
-    <h3>2. Hoàn Service Fee khi Khách Hủy Đúng Chính Sách</h3>
-
-    <div style="background-color: #ECFDF5; padding: 1.5rem; border-left: 4px solid #10B981; border-radius: 0.5rem; margin: 1.5rem 0;">
-      <h4 style="margin-top: 0;">✓ Hoàn 100% Service Fee</h4>
-      <p>
-        Khi khách hủy đúng theo chính sách (hủy ≥72 giờ, hoặc hủy vì lý do chính đáng như hướng dẫn viên không có mặt, dịch vụ kém chất lượng),
-        khách sẽ nhận được <strong>100% hoàn Service Fee</strong> cùng với hoàn tiền dịch vụ.
-      </p>
-    </div>
-
-    <table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0;">
-      <tr style="background-color: #F3F4F6;">
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;"><strong>Tình huống</strong></td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;"><strong>Service Fee</strong></td>
-      </tr>
-      <tr>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">Khách hủy ≥72 giờ</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB; background-color: #ECFDF5;"><strong>Hoàn 100%</strong></td>
-      </tr>
-      <tr>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">Khách hủy vì hướng dẫn viên không có mặt</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB; background-color: #ECFDF5;"><strong>Hoàn 100%</strong></td>
-      </tr>
-      <tr>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">Khách hủy vì dịch vụ kém chất lượng</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB; background-color: #ECFDF5;"><strong>Hoàn 100%</strong></td>
-      </tr>
-      <tr>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">Ello hủy tour (bảo mật, thời tiết)</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB; background-color: #ECFDF5;"><strong>Hoàn 100%</strong></td>
-      </tr>
-      <tr>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">Hướng dẫn viên hủy tour</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB; background-color: #ECFDF5;"><strong>Hoàn 100%</strong></td>
-      </tr>
-    </table>
-
-    <h3>3. KHÔNG Hoàn Service Fee khi Khách Hủy Ngoài Chính Sách</h3>
-
-    <div style="background-color: #FEE2E2; padding: 1.5rem; border-left: 4px solid #DC2626; border-radius: 0.5rem; margin: 1.5rem 0;">
-      <h4 style="margin-top: 0;">✗ KHÔNG Hoàn Service Fee</h4>
-      <p>
-        Khi khách hủy <strong>ngoài chính sách</strong> (hủy <24 giờ, không có mặt, bỏ cuộc giữa chừng), Service Fee <strong>KHÔNG được hoàn lại</strong>.
-        Khách chỉ nhận hoàn tiền dịch vụ theo lịch hoàn tiền (50% hoặc 0%), nhưng Service Fee sẽ bị mất.
-      </p>
-    </div>
-
-    <table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0;">
-      <tr style="background-color: #F3F4F6;">
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;"><strong>Tình huống</strong></td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;"><strong>Hoàn Dịch Vụ</strong></td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;"><strong>Service Fee</strong></td>
-      </tr>
-      <tr>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">Khách hủy 24-72 giờ</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">75%</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB; background-color: #FEE2E2;"><strong>KHÔNG hoàn</strong></td>
-      </tr>
-      <tr>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">Khách hủy <24 giờ</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">50%</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB; background-color: #FEE2E2;"><strong>KHÔNG hoàn</strong></td>
-      </tr>
-      <tr>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">Khách không có mặt / Bỏ cuộc</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB;">0%</td>
-        <td style="padding: 1rem; border: 1px solid #D1D5DB; background-color: #FEE2E2;"><strong>KHÔNG hoàn</strong></td>
-      </tr>
-    </table>
-
-    <h3>4. Ví dụ cụ thể</h3>
-
-    <p><strong>Giả sử:</strong> Giá dịch vụ = 1,000,000 VND | Service Fee = 100,000 VND | Tổng = 1,100,000 VND</p>
-
-    <div style="margin: 1.5rem 0;">
-      <h4>Tình huống A: Khách hủy ≥72 giờ (đúng chính sách)</h4>
-      <ul style="margin: 1rem 0;">
-        <li>Hoàn dịch vụ: <strong>1,000,000 VND (100%)</strong></li>
-        <li>Hoàn Service Fee: <strong>100,000 VND (100%)</strong></li>
-        <li><strong>Tổng hoàn: 1,100,000 VND</strong></li>
-      </ul>
-    </div>
-
-    <div style="margin: 1.5rem 0;">
-      <h4>Tình huống B: Khách hủy <24 giờ (ngoài chính sách)</h4>
-      <ul style="margin: 1rem 0;">
-        <li>Hoàn dịch vụ: <strong>500,000 VND (50%)</strong></li>
-        <li>Hoàn Service Fee: <strong>0 VND</strong></li>
-        <li><strong>Tổng hoàn: 500,000 VND</strong></li>
-        <li style="color: #DC2626;"><strong>Khách mất: 600,000 VND (giá dịch vụ 50% + toàn bộ Service Fee)</strong></li>
-      </ul>
-    </div>
-
-    <h3>5. Tại sao có Service Fee?</h3>
-    <ul style="margin: 1.5rem 0;">
-      <li><strong>Duy trì nền tảng:</strong> Xây dựng, bảo trì website và ứng dụng Ello Da Nang.</li>
-      <li><strong>Xử lý thanh toán:</strong> Chi phí cổng thanh toán, chuyển tiền.</li>
-      <li><strong>Hỗ trợ khách hàng:</strong> Đội ngũ hỗ trợ, giải quyết tranh chấp, xác minh danh tính.</li>
-      <li><strong>An toàn & Bảo mật:</strong> Kiểm tra nền tảng, chống gian lận, bảo vệ dữ liệu.</li>
-      <li><strong>Bảo hiểm & Pháp lý:</strong> Bảo hiểm trách nhiệm dân sự, hỗ trợ pháp lý.</li>
-    </ul>
-
-    <h2 style="margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #E2E8F0;">V. Quy Trình Hủy (Bước theo Bước)</h2>
+    <h2 style="margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #E2E8F0;">IV. Quy Trình Hủy (Bước theo Bước)</h2>
 
     <h3>Cách khách hủy tour:</h3>
     <ol style="margin: 1.5rem 0; padding-left: 2rem;">
@@ -496,7 +341,7 @@
     </ol>
 
     <!-- V. TRANH CHẤP HOÀN TIỀN -->
-    <h2 style="margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #E2E8F0;">VI. Tranh Chấp về Hoàn Tiền</h2>
+    <h2 style="margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #E2E8F0;">V. Tranh Chấp về Hoàn Tiền</h2>
 
     <p>
       Nếu khách hoặc hướng dẫn viên không đồng ý với quyết định hoàn tiền, có thể nộp đơn khiếu nại:
@@ -515,99 +360,8 @@
       <li><strong>Quyết định cuối cùng được gửi cho cả hai bên.</strong> Không có quyền kháng cáo thêm.</li>
     </ol>
 
-
-    <!-- VI. CHÍNH SÁCH HỦY DỊCH VỤ DÀNH CHO KHÁCH HÀNG -->
-    <h2 style="margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #E2E8F0;">VII. Chính Sách Hủy Dịch Vụ Dành cho Khách Hàng</h2>
-
-    <p>
-      Khách hàng có thể hủy dịch vụ và yêu cầu hoàn tiền 100% nếu gặp những vấn đề liên quan đến chất lượng dịch vụ hoặc lỗi của hướng dẫn viên.
-    </p>
-
-    <h3>1. Những tình huống được hoàn tiền 100%</h3>
-
-    <p><strong>Khách được hoàn tiền 100%</strong> nếu xảy ra các tình huống sau:</p>
-    <ul style="margin: 1.5rem 0;">
-      <li><strong>Hướng dẫn viên không có mặt hoặc bỏ tour giữa chừng:</strong> Khách không nhận được dịch vụ hoặc chỉ nhận được một phần.</li>
-      <li><strong>Hướng dẫn viên không tuân thủ tiêu chuẩn dịch vụ:</strong>
-        <ul>
-          <li>Không nói được tiếng Anh hoặc ngôn ngữ đã thỏa thuận.</li>
-          <li>Không biết các thông tin về địa điểm du lịch.</li>
-          <li>Cư xử thiếu chuyên nghiệp, bất lịch sự, xúc phạm khách.</li>
-        </ul>
-      </li>
-      <li><strong>Hướng dẫn viên không theo đúng lịch trình tour:</strong> Thay đổi địa điểm, rút ngắn thời gian mà không thông báo trước hoặc không có lý do chính đáng.</li>
-      <li><strong>Sự cố bảo mật hoặc sức khỏe:</strong> Khách gặp chấn thương, ốm đau, hoặc bị xâm hại trong suốt tour.</li>
-      <li><strong>Dịch vụ không như quảng cáo:</strong> Hướng dẫn viên không cung cấp các dịch vụ bổ sung đã cam kết (ví dụ: ăn cơm tập thể, ghé thăm cửa hàng lưu niệm).</li>
-      <li><strong>Thiết bị hoặc phương tiện bị hỏng:</strong> Tour sử dụng phương tiện không an toàn, bị hỏng hoặc không phù hợp.</li>
-    </ul>
-
-    <h3>2. Quy trình yêu cầu hoàn tiền dịch vụ</h3>
-
-    <ol style="margin: 1.5rem 0; padding-left: 2rem;">
-      <li><strong>Báo cáo vấn đề ngay:</strong> Khách phải liên hệ với Ello hoặc hướng dẫn viên trong khi tour đang diễn ra (nếu có thể) hoặc trong vòng <strong>24 giờ</strong> sau khi kết thúc tour.</li>
-      <li><strong>Cung cấp chứng minh chi tiết:</strong>
-        <ul>
-          <li>Mô tả chi tiết vấn đề xảy ra.</li>
-          <li>Ảnh hoặc video minh chứng (nếu có).</li>
-          <li>Tin nhắn trao đổi với hướng dẫn viên (nếu có).</li>
-          <li>Tên hướng dẫn viên và ngày, giờ tour.</li>
-        </ul>
-      </li>
-      <li><strong>Ello sẽ điều tra trong 5-7 ngày làm việc:</strong>
-        <ul>
-          <li>Liên hệ hướng dẫn viên để nghe phía họ.</li>
-          <li>Xem xét chứng minh từ cả hai bên.</li>
-          <li>Kiểm tra lịch sử và đánh giá của hướng dẫn viên.</li>
-        </ul>
-      </li>
-      <li><strong>Quyết định hoàn tiền:</strong>
-        <ul>
-          <li>Nếu lỗi do hướng dẫn viên: <strong>Hoàn 100% cho khách.</strong></li>
-          <li>Nếu là mâu thuẫn hay sự hiểu lầm: Ello sẽ quyết định dựa trên chứng minh và điều khoản dịch vụ.</li>
-          <li>Nếu khách không cung cấp chứng minh rõ ràng: Ello có quyền từ chối hoàn tiền.</li>
-        </ul>
-      </li>
-      <li><strong>Hoàn tiền xử lý trong 3-5 ngày làm việc</strong> sau khi quyết định chính thức.</li>
-    </ol>
-
-    <div style="margin: 1.5rem 0; padding: 1rem; background-color: #DBEAFE; border-left: 4px solid #0284C7; border-radius: 0.5rem;">
-      <strong>⚠️ Hạn chế báo cáo:</strong> Khách phải báo cáo vấn đề trong vòng <strong>7 ngày</strong> kể từ khi tour kết thúc.
-      Sau thời gian này, Ello sẽ không xem xét yêu cầu hoàn tiền.
-    </div>
-
-    <h3>3. Hậu quả đối với hướng dẫn viên</h3>
-
-    <p>
-      Nếu hướng dẫn viên bị xác định là lỗi:
-    </p>
-    <ul style="margin: 1.5rem 0;">
-      <li><strong>Cảnh cáo lần đầu:</strong> Ello gửi cảnh báo chính thức.</li>
-      <li><strong>Xếp hạng bị giảm:</strong> Tùy theo mức độ vi phạm:
-        <ul>
-          <li>Vi phạm nhẹ: -0.5★</li>
-          <li>Vi phạm trung bình: -1.0★</li>
-          <li>Vi phạm nặng (bỏ tour, xúc phạm): -2.0★ hoặc hơn</li>
-        </ul>
-      </li>
-      <li><strong>Bị tạm khóa:</strong> Nếu xếp hạng rơi xuống dưới 4.0, hướng dẫn viên bị tạm khóa 7 ngày để cải thiện.</li>
-      <li><strong>Bị khóa vĩnh viễn:</strong> Nếu có 3+ khiếu nại về dịch vụ trong 90 ngày, hướng dẫn viên bị khóa vĩnh viễn khỏi nền tảng.</li>
-    </ul>
-
-    <h3>4. Khách hàng không được hoàn tiền nếu</h3>
-
-    <p>
-      Ello <strong>sẽ từ chối hoàn tiền</strong> nếu:
-    </p>
-    <ul style="margin: 1.5rem 0;">
-      <li><strong>Khách thay đổi ý kiến sau tour mà không có lý do chính đáng:</strong> Chỉ không thích tour không phải là lý do để hoàn tiền.</li>
-      <li><strong>Vấn đề do khách gây ra:</strong> Khách đến muộn, bỏ tour hoặc yêu cầu thay đổi lịch trình.</li>
-      <li><strong>Khách không cung cấp chứng minh:</strong> Chỉ nói lời mà không có ảnh, video, hoặc chứng tích ghi chép.</li>
-      <li><strong>Báo cáo sau 7 ngày kết thúc tour:</strong> Quá thời gian khiếu nại.</li>
-      <li><strong>Vấn đề đã được giải quyết:</strong> Khách và hướng dẫn viên đã thương lượng và đi đến thỏa thuận riêng.</li>
-    </ul>
-
-    <!-- VII. NHỮNG TÌNH HUỐNG THƯỜNG GẶP -->
-    <h2 style="margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #E2E8F0;">VIII. Ví Dụ & Những Tình Huống Thường Gặp</h2>
+    <!-- VI. NHỮNG TÌNH HUỐNG THƯỜNG GẶP -->
+    <h2 style="margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid #E2E8F0;">VI. Ví Dụ & Những Tình Huống Thường Gặp</h2>
 
     <div style="margin: 2rem 0;">
       <h4>📌 Ví dụ 1: Khách hủy tour 80 giờ trước</h4>
